@@ -1,5 +1,6 @@
 # DBCORE PARA OXMYSQL
 Modificação da DBCORE para VRPEX para suportar OXMYSQL
+
 Download do Script para utilizar junto (OFICIAL): [oxmysql](https://forum.cfx.re/t/standalone-oxmysql-lightweight-mysql-wrapper/4755120)
 
 **FrameWork:** VRPEX
