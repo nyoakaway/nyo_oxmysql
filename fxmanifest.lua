@@ -5,6 +5,7 @@ client_script 'hansolo/*.lua'
 
 dependencies {
 	"vrp"
+	"oxmysql"
 }
 
 server_scripts {
