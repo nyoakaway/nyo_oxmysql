@@ -1,7 +1,5 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
-
-client_script 'hansolo/*.lua'
 
 dependencies {
 	"vrp"
