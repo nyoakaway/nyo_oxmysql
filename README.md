@@ -8,7 +8,7 @@ Download do Script para utilizar junto (OFICIAL): [oxmysql](https://forum.cfx.re
 
 **Instalação:** 
 É necessario fazer uma modificação no arquivo **vrp/base.lua**
-Procurar pela função **vRP.isBanner**
+Procurar pela função **vRP.isBanned**
 
 Substituir ela por:
 ```lua
@@ -45,6 +45,9 @@ function vRP.isWhitelisted(user_id, cbr)
 	end
 end
 ```
+
+Abrir ***vrp/cfg/base.lua*** 
+Alterar **ghmattimysql** para **oxmysql**
 
 
 **Duvidas/Suporte:**
