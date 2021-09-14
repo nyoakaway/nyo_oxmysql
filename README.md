@@ -1,7 +1,7 @@
 # DBCORE PARA OXMYSQL
 Modificação da DBCORE para VRPEX para suportar OXMYSQL
 
-Download do Script para utilizar junto (OFICIAL): [oxmysql](https://forum.cfx.re/t/standalone-oxmysql-lightweight-mysql-wrapper/4755120)
+Download do Script para utilizar junto (OFICIAL): [oxmysql](https://forum.cfx.re/t/standalone-oxmysql-lightweight-mysql-wrapper/4755120) (Versão 1.1.0, a versão 1.2.0 esta com problema por enquanto, aguardando correção para atualização)
 
 **FrameWork:** VRPEX
 
@@ -39,7 +39,7 @@ function vRP.isWhitelisted(user_id, cbr)
 		else 
 			return false
 		end
-		return db
+		return d
 	else
 		return false
 	end
