@@ -1,8 +1,9 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
 
 dependencies {
-	"vrp"
+	"vrp",
+	"oxmysql"
 }
 
 server_scripts {
