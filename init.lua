@@ -1,6 +1,8 @@
 local Proxy = module("vrp","lib/Proxy")
 local vRP = Proxy.getInterface("vRP")
 
+-- STATIC
+
 local function blob2string(blob)
   for i,c in pairs(blob) do
     blob[i] = string.char(c)
@@ -23,6 +25,7 @@ end
 
 local function on_query(name, params, mode)
   local query = queries[name]
+  query = query:gsub("%,",", ")
   local _params = {_ = true}
   for k,v in pairs(params) do _params[k] = v end
   local r = async()
@@ -35,7 +38,7 @@ local function on_query(name, params, mode)
       r(scalar)
     end)
   else
-    API:fetch(query,_params, function(rows)
+    API:execute(query,_params, function(rows)
       for _,row in pairs(rows) do
         for k,v in pairs(row) do
           if type(v) == "table" then
