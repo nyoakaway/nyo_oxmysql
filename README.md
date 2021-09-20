@@ -1,7 +1,7 @@
 # DB DRIVE PARA OXMYSQL
 Modificação da DB DRIVE para VRPEX para suportar OXMYSQL
 
-Download do Script para utilizar junto (OFICIAL): [oxmysql](https://forum.cfx.re/t/standalone-oxmysql-lightweight-mysql-wrapper/4755120) (Versão 1.1.0, a versão 1.2.0 esta com problema por enquanto, aguardando correção para atualização)
+Download do Script para utilizar junto (OFICIAL): [oxmysql](https://forum.cfx.re/t/standalone-oxmysql-lightweight-mysql-wrapper/4755120)
 
 **FrameWork:** VRPEX
 
