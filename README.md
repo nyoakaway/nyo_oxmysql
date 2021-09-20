@@ -7,7 +7,9 @@ Download do Script para utilizar junto (OFICIAL): [oxmysql](https://forum.cfx.re
 
 
 **Instalação:** 
+
 Inicialmente seguir passou de instalação na documentação oficial, posteriormente:
+
 Abrir ***vrp/cfg/base.lua*** 
 Alterar **ghmattimysql** para **oxmysql**
 
