@@ -2,8 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 dependencies {
-	"vrp",
-	"oxmysql"
+	"vrp"
 }
 
 server_scripts {
