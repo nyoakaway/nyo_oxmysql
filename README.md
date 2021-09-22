@@ -12,9 +12,3 @@ Inicialmente seguir passou de instalação na documentação oficial, posteriorm
 
 Abrir ***vrp/cfg/base.lua*** 
 Alterar **ghmattimysql** para **oxmysql**
-
-
-**Duvidas/Suporte:**
-
-https://discord.gg/nyo
-
