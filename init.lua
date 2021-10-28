@@ -38,14 +38,7 @@ local function on_query(name, params, mode)
       r(scalar)
     end)
   else
-    API:execute(query,_params, function(rows)
-      for _,row in pairs(rows) do
-        for k,v in pairs(row) do
-          if type(v) == "table" then
-            row[k] = blob2string(v)
-          end
-        end
-      end
+    API:execute(query,_params, function(rows)    
       r(rows, #rows)
     end)
   end
