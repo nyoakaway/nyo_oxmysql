@@ -30,7 +30,7 @@ local function on_query(name, params, mode)
   for k,v in pairs(params) do _params[k] = v end
   local r = async()
   if mode == "execute" then
-    API:execute(query, _params, function(data)
+    API:query(query, _params, function(data)
       r(data or 0)
     end)
   elseif mode == "scalar" then
@@ -38,7 +38,7 @@ local function on_query(name, params, mode)
       r(scalar)
     end)
   else
-    API:execute(query,_params, function(rows)    
+    API:query(query,_params, function(rows)    
       r(rows, #rows)
     end)
   end
